@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>KeyCaps-World</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="./index.html"><img src="./img/logo-index.png" alt="" class="logo-index"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav justify-content-end mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/reseñas.html">Reseñas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 class="display-3" data-aos="fade-up">¡Bienvenid@ a KeyCaps-World!</h1>
+            <p data-aos="fade-up" data-aos-duration="2000">La página número 1 del mundo en contenido relacionado a teclados personalizados</p>
+        </section>
+        <section class="more-index">
+            <p class="more-index-texto1" data-aos="fade-up" data-aos-duration="3000">Puedes encontrar turoriales básicos y avanzados de armado y personalización de
+                teclados</p>
+            <img src="./img/imgsection2-1.png" alt="" data-aos="fade-up" data-aos-duration="2500">
+            <p class="more-index-texto2" data-aos="fade-up" data-aos-duration="2000">Y también reseñas, comparativas y las últimas novedades dentro de la industria
+            </p>
+        </section>
+        <hr>
+        <section class="noticias-index"> <!-- Bootstrap Carousel -->
+            <h1>¡Todas las novedades del mundo de los teclados personalizados!</h1>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <a href="./pages/noticias.html"><img src="./img/imgNoticia1.png" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Nuevas KeyCaps Razer</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <a href="./pages/noticias.html"><img src="./img/imgNoticia2.png" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Se abre nueva fabrica en Latam</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <a href="./pages/noticias.html"><img src="./img/imgNoticia3.png" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>El último lanzamiento</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <hr>
+        <section class="registro-index">
+            <h3>Las ofertas y novedades van a ti</h3>
+            <p>Ingresando tu correo podrás recibir todas las novedades y ofertas que buscas de manera semanal y
+                totalmente gratis</p>
+            <form action="">
+                <div>
+                    <label for="Email"></label>
+                    <input type="email" name="Email" id="Email" placeholder="example@example">
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3 class="h4">Redes Sociales</h3>
+        <a href="https://www.facebook.com/" target="_blank"><img src="./img/f.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="./img/i.png" alt="Instagram"></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="./img/y.png" alt="Youtube"></a>
+        <a href="https://www.tiktok.com/es/" target="_blank"><img src="./img/tt.png" alt="TikTok"></a>
+        <p>"El único modo de hacer un gran trabajo es amar lo que haces - Steve Jobs"</p>
+    </footer>
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Animaciones js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><script>AOS.init();</script>
+</body>
+
+</html>
