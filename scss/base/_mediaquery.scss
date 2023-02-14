@@ -1,0 +1,341 @@
+/**--------------- 1124 ---------------- */
+
+@media screen and (max-width: 1124px) {
+    .hero {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .more-index {
+        height: auto;
+
+        .more-index-texto1 {
+            font-size: 25px;
+            padding: 20px 20px 0px 20px;
+        }
+
+        .more-index-texto2 {
+            font-size: 25px;
+            padding: 160px 20px 0px 20px;
+        }
+
+        img {
+            width: 400px;
+            height: 300px;
+        }
+    }
+
+    .registro-index {
+        padding: 10px;
+
+        h3 {
+            font-size: 30px;
+        }
+
+        form {
+            input {
+                width: 50%;
+                height: 30px;
+                text-align: center;
+            }
+        }
+    }
+
+    .contacto {
+        height: auto;
+
+        h1 {
+            font-size: 40px;
+        }
+    }
+
+    .nosotros-page {
+        width: 90%;
+
+        img {
+            width: 250px;
+            height: 190px;
+        }
+    }
+
+    .contenedor-flex,
+    .flex-opuesto {
+        width: 90%;
+    }
+
+}
+
+/**--------------- 767 ---------------- */
+
+@media screen and (max-width: 767px) {
+    body {
+        padding-top: 90px;
+    }
+
+    footer {
+        height: auto;
+        padding: 0 20px 20px 20px;
+
+        a {
+            img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        p {
+            margin-top: 20px;
+            position: relative;
+            bottom: 0px;
+        }
+    }
+
+    .hero {
+        font-size: 30px;
+
+        p {
+            margin-top: 10px;
+            font-size: 25px;
+        }
+    }
+
+    .more-index {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+
+        .more-index-texto1,
+        .more-index-texto2 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        img {
+            margin: 10px auto 10px auto;
+        }
+    }
+
+    .noticias-index {
+        width: 100%;
+    }
+
+    .registro-index {
+        form {
+            input {
+                width: 100%;
+                height: 30px;
+            }
+        }
+    }
+
+    .contacto {
+        width: 100%;
+
+        .formulario-contacto {
+            div {
+                input {
+                    width: 80%;
+                    height: 40px;
+                }
+
+                textarea {
+                    width: 100%;
+                    height: 300px;
+                }
+            }
+        }
+    }
+
+    .publicidad-marcas {
+        margin: 30px;
+
+        a {
+            img {
+                margin: 0px;
+                opacity: 100%;
+
+                &:hover {
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+
+    .nosotros-page {
+        width: 100%;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas:
+            "h1"
+            "texto1"
+            "imagen1"
+            "texto2"
+            "imagen2"
+            "texto3"
+        ;
+        padding: 10px;
+
+        img {
+            width: 250px;
+            height: 190px;
+        }
+    }
+
+    .ultimo-video {
+        iframe {
+            width: 500px;
+            height: 255px;
+        }
+    }
+
+    .mas-reseñas,
+    .mas-noticias {
+        margin: 30px 0px 30px 0px;
+    }
+
+    .contenedor-flex,
+    .flex-opuesto {
+        width: 95%;
+    }
+
+}
+
+/**--------------- 860&570&500&360 ---------------- */
+
+@media screen and (max-width: 860px) {
+
+    .contenedor-flex,
+    .flex-opuesto {
+        img {
+            width: 300px;
+            height: 150px;
+        }
+    }
+
+    .flex-textos {
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    .contenedor-flex,
+    .flex-opuesto {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .flex-textos {
+
+        h3,
+        p {
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .more-index {
+        img {
+            width: 100%;
+            height: calc(width-150px);
+        }
+    }
+
+    .ultimo-video {
+        h1 {
+            margin: 50px 10px 50px 10px;
+        }
+
+        iframe {
+            width: 100%;
+            height: calc(width-245px);
+        }
+
+        p {
+            padding: 0px 20px 0px 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contacto {
+        h1 {
+            font-size: 30px
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .formulario-contacto {
+            div {
+                input {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .publicidad-marcas {
+        margin: 10px;
+
+        a {
+            img {
+                width: 100%;
+                height: calc(width-220px);
+            }
+        }
+    }
+
+    .contenedor-flex,
+    .flex-opuesto {
+        img {
+            margin-top: 25px;
+            width: 100%;
+            height: 150px;
+        }
+    }
+
+    .ultimo-video {
+        h1 {
+            font-size: 40px;
+        }
+    }
+}
+
+/**--------------- 300 ---------------- */
+
+@media screen and (max-width: 300px) {
+    footer {
+        display: block;
+        height: auto;
+        padding: 0 10px 20px 10px;
+
+        p {
+            margin-top: 20px;
+            position: relative;
+            bottom: 0px;
+        }
+
+        a {
+            img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    }
+
+    .nosotros-page {
+        img {
+            width: 100%;
+            padding: 5px;
+        }
+    }
+
+}

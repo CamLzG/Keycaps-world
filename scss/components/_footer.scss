@@ -1,0 +1,28 @@
+footer {
+    background-color: nth($colores, 2 );
+    color: nth($colores, 1 );
+    text-align: center;
+    height: 180px;
+    position: relative;
+
+    h3 {
+        padding: 10px;
+    }
+
+    a {
+        img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+    }
+
+    p {
+        position: absolute;
+        bottom: 30px;
+        text-align: center;
+        width: 100%;
+        opacity: 60%;
+        margin-bottom: 0px;
+    }
+}

@@ -1,4 +1,5 @@
-/** Reset */ /** Responsive lineas: 21, 87, 152, 199, 261, 300, 491, 687 */
+/** Reset */
+/** Responsive lineas: 21, 87, 152, 199, 261, 300, 491, 687 */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 
 * {
@@ -104,7 +105,7 @@ footer p {
     }
 }
 
-@media screen and (max-width: 315px) {
+@media screen and (max-width: 300px) {
     footer {
         display: block;
         height: auto;
@@ -161,7 +162,7 @@ hr {
 @media screen and (max-width: 767px) {
     .hero {
         font-size: 30px;
-        ;
+
     }
 
     .hero p {
@@ -358,7 +359,7 @@ hr {
     font-size: 40px;
 }
 
-.contenedor-reseñas {
+.contenedor-flex {
     background-color: rgb(201, 173, 167);
     width: 80%;
     margin: auto;
@@ -370,13 +371,13 @@ hr {
     align-items: center;
 }
 
-.contenedor-reseñas img {
+.contenedor-flex img {
     width: 350px;
     height: 200px;
     border-radius: 20px;
 }
 
-.reseña-opuesta {
+.flex-opuesto {
     background-color: rgb(201, 173, 167);
     height: 300px;
     width: 80%;
@@ -389,30 +390,30 @@ hr {
     align-items: center;
 }
 
-.reseña-opuesta img {
+.flex-opuesto img {
     width: 350px;
     height: 200px;
     border-radius: 20px;
 }
 
-.reseña-opuesta h3 {
+.flex-opuesto h3 {
     text-align: right;
 }
 
-.reseña-opuesta p {
+.flex-opuesto p {
     text-align: right;
 }
 
-.reseñas-textos {
+.flex-textos {
     color: rgb(34, 34, 59);
     padding: 30px;
 }
 
-.reseñas-textos h3 {
+.flex-textos h3 {
     font-size: 30px;
 }
 
-.reseñas-textos p {
+.flex-textos p {
     font-size: 20px;
 }
 

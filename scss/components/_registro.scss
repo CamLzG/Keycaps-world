@@ -1,0 +1,30 @@
+.registro-index {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+    h3 {
+        margin-bottom: 10px;
+        color: nth($colores, 2 );
+        font-size: 40px
+    }
+
+    p {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    form {
+        input {
+            width: 30%;
+            height: 30px;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px;
+        }
+    }
+}
