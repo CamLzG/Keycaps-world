@@ -1,12 +1,18 @@
 .navbar-light {
     .navbar-nav {
+        text-align: right;
+
         .nav-link {
-            color: nth($colores, 1 );
+            color: nth($colores, 2);
+            margin-right: 10px;
             transition: 0.3s;
 
             &:hover {
-                color: nth($colores, 2 );
+                color: nth($colores, 1);
             }
+        }
+        .nav-link.active {
+            color:nth($colores, 1); 
         }
     }
 }

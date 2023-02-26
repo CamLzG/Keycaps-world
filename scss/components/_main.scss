@@ -90,7 +90,7 @@
 /**--------------- Contacto ---------------- */
 
 .contacto {
-    max-width: calc(1920px - 288px);
+    max-width: calc(1920px - 388px);
     width: 85%;
     height: auto;
     background-color: nth($colores, 3 );
@@ -148,8 +148,8 @@
 
     a {
         img {
-            width: 340px;
-            height: 120px;
+            width: 300px;
+            height: 85px;
             opacity: 50%;
             margin: 15px;
             transition: 1s;
